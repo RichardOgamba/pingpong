@@ -1,0 +1,27 @@
+body{
+	font-family: cursive;
+}
+.row{
+	text-align: center;
+}
+.con{
+	text-align: center;
+	background-color: lightblue;
+	color: maroon;
+}
+.topbar{
+	background-color: maroon;
+}
+.important{
+	text-align: center;
+	background-color: yellow;
+	color: maroon;
+}
+.image{
+	height: 25px;
+	width: 25px;
+}
+.sidebar{
+	background-color: lightgreen;
+	color: maroon;
+}
