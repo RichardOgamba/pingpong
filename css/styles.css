@@ -1,5 +1,6 @@
 body{
 	font-family: cursive;
+	background-color: yellow;
 }
 .row{
 	text-align: center;
@@ -17,6 +18,9 @@ body{
 	background-color: yellow;
 	color: maroon;
 }
+.btn{
+	color: maroon;
+}
 .image{
 	height: 25px;
 	width: 25px;
@@ -24,4 +28,5 @@ body{
 .sidebar{
 	background-color: lightgreen;
 	color: maroon;
+	float: right;
 }
