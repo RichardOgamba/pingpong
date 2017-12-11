@@ -22,11 +22,15 @@ body{
 	color: maroon;
 }
 .image{
-	height: 25px;
-	width: 25px;
+	height: 40px;
+	width: 40px;
 }
 .sidebar{
 	background-color: lightgreen;
 	color: maroon;
 	float: right;
+}
+#lower{
+	margin-top: 10px;
+	padding-bottom: 10px;
 }
