@@ -5,8 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
-		<script src="js/jquery-3.2.1.js"></script>
-		<script src="js/scripts.js"></script>
 
 		<title>PingPong</title>
 	</head>
@@ -38,11 +36,11 @@
 			<div class="row">
 				<div class="col-7">
 					<div class="jumbotron important">
-						<form>
+						<form id="pingpong">
 							<img src="img/ping.png" alt="pingpong">
 							<h1>PingPong</h1>
-							<label for="PingPong">Enter your number here:</label>
-							<input type="text" name="PingPong">
+							<label for="pong">Enter your number here:</label>
+							<input type="text" id="pong">
 							<button type="submit" class="btn btn-success">PingPong!</button>
 						</form>
 					</div>
@@ -59,17 +57,14 @@
 						</ol>
 
 						<h2>Try it Out !!!</h2>
-						<div id="#result">
-							<p></p>
+						<div id="result">
+
 						</div>
-
-						<ul>
-
-						</ul>
-
 					</div>
 				</div>
 			</div>
 		</div>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
